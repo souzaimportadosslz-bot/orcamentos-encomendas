@@ -1877,7 +1877,7 @@
             db.ref('.info/connected').on('value', (snapshot) => {
                 if (snapshot.val() === true) {
                     console.log("✅ Conectado ao Firebase!");
-                    document.getElementById('pharmacy-name').style.color = '#27ae60';
+                    document.getElementById('pharmacy-name').style.color = '#e74c3c';
                 } else {
                     console.log("⚠️ Desconectado do Firebase!");
                     document.getElementById('pharmacy-name').style.color = '#f39c12';
@@ -5381,3 +5381,4 @@
     </script>
 </body>
 </html>
+
